@@ -8,7 +8,7 @@ const App = (function () {
   const INDEX = [].concat(
     TPS.map(t => ({ t: 'Materi TP ' + t.no + ': ' + t.judul, k: 'materi rumus ' + t.ringkas, go: 'materi', tp: t.id })),
     Object.keys(SIM.MOD).map(id => ({ t: 'Simulasi ' + SIM.MOD[id].judul, k: 'simulasi lab ' + id, go: 'simulasi' })),
-    [{ t: 'Kartu rumus kunci c² = a² + b²', k: 'rumus pythagoras hipotenusa', go: 'materi' }, { t: 'Tripel Pythagoras 3-4-5, 5-12-13', k: 'tripel kelipatan', go: 'materi', tp: 'TP4' }, { t: 'Segitiga istimewa 45° 30° 60°', k: 'rasio sudut istimewa', go: 'materi', tp: 'TP5' }, { t: 'Ruang CBT', k: 'ujian asesmen formatif sumatif', go: 'cbt' }, { t: 'Papan Juara', k: 'peringkat ranking', go: 'papan' }]
+    [{ t: 'Kartu rumus kunci c² = a² + b²', k: 'rumus pythagoras hipotenusa', go: 'materi' }, { t: 'Tripel Pythagoras 3-4-5, 5-12-13', k: 'tripel kelipatan', go: 'materi', tp: 'TP4' }, { t: 'Segitiga istimewa 45° 30° 60°', k: 'rasio sudut istimewa', go: 'materi', tp: 'TP5' }, { t: 'Video segitiga istimewa 45° 30° 60°', k: 'video youtube istimewa diagonal ubin', go: 'materi', tp: 'TP5' }, { t: 'Toko Apresiasi (Tukar Poin Kelas)', k: 'poin kelas apresiasi tukar hadiah', go: 'poin' }, { t: 'Ruang CBT', k: 'ujian asesmen formatif sumatif', go: 'cbt' }, { t: 'Papan Juara', k: 'peringkat ranking', go: 'papan' }]
   );
 
   function sidebar() {
